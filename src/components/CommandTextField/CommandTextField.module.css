@@ -1,0 +1,19 @@
+
+.Result {
+    display: flex;
+    margin-top: -4px;
+    z-index: 2;
+}
+    .Result h4 {
+        margin: 0;
+        padding: 0;
+        padding: 10px 20px;
+        background: #2934ce;
+        color: white;
+    }
+    .Result h4:first-child {
+        border-radius: 0 0 0 10px;
+    }
+    .Result h4:last-child {
+        border-radius: 0 0 10px 0;
+    }
